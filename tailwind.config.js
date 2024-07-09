@@ -1,9 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./views/**/*.{html,js,handlebars}"],
   theme: {
-    extend: {},
+    extend:{
+    colors: {
+        'azulclaro': '#ADD8E6',
+        'cinza': '#808080',
+    },
   },
+  }, 
+
   plugins: [],
 }
-
