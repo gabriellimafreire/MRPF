@@ -13,5 +13,5 @@ app.listen(8081, function(){
 })
 
 app.get("/", function(req,res){
-    res.render("listar_service")
+    res.render("navbar")
 })
